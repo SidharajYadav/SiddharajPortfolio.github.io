@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/SiddharajPortfolio.github.io/static/css/main.bf538fe7.css",
+    "main.js": "/SiddharajPortfolio.github.io/static/js/main.7297a8ba.js",
+    "static/media/Web-Guards Home page.jpg": "/SiddharajPortfolio.github.io/static/media/Web-Guards Home page.893ea90984f08f763bd1.jpg",
+    "static/media/zeta-v.png": "/SiddharajPortfolio.github.io/static/media/zeta-v.bc8d174c48f55254ab65.png",
+    "static/media/Exposys.png": "/SiddharajPortfolio.github.io/static/media/Exposys.f00085b041b3c118c45f.png",
+    "static/media/DrDY.png": "/SiddharajPortfolio.github.io/static/media/DrDY.cf90298fa81a68768743.png",
+    "static/media/HeroImage.jpg": "/SiddharajPortfolio.github.io/static/media/HeroImage.4f67a026c6f8019f0907.jpg",
+    "index.html": "/SiddharajPortfolio.github.io/index.html",
+    "main.bf538fe7.css.map": "/SiddharajPortfolio.github.io/static/css/main.bf538fe7.css.map",
+    "main.7297a8ba.js.map": "/SiddharajPortfolio.github.io/static/js/main.7297a8ba.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bf538fe7.css",
+    "static/js/main.7297a8ba.js"
+  ]
+}
