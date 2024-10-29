@@ -39,3 +39,20 @@ body{
   ::-webkit-scrollbar-thumb:hover {
     background: #626970;
   }
+
+ @media (max-width: 768px) {
+  .responsive-container {
+    flex-direction: column; /* Stack items vertically on small screens */
+  }
+}
+
+
+@media (max-width: 768px) {
+  .model-container {
+    display: none; /* Hide the model section on small screens */
+  }
+  
+  .responsive-container {
+    flex-direction: column; /* Stack items vertically */
+  }
+}
