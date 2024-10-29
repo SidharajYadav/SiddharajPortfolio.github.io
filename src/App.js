@@ -18,6 +18,7 @@ import React from "react";
 import { Canvas } from "@react-three/fiber";
 import Setup from "./components/Setup.jsx";
 import { OrbitControls } from "@react-three/drei";
+import MobileSetup from "./components/MobileSetup.jsx";
 
 const Body = styled.div`
   background-color: ${({ theme }) => theme.bg};
@@ -42,7 +43,15 @@ const Wrapper = styled.div`
 function App() {
   const [darkMode, setDarkMode] = useState(true);
   const [openModal, setOpenModal] = useState({ state: false, project: null });
-  console.log(openModal);
+  const [isSmallScreen, setIsSmallScreen] = useState(window.innerWidth <= 768);
+   useEffect(() => {
+     const handleResize = () => {
+       setIsSmallScreen(window.innerWidth <= 768);
+     };
+
+     window.addEventListener("resize", handleResize);
+     return () => window.removeEventListener("resize", handleResize);
+   }, []);
   return (
     <ThemeProvider theme={darkMode ? darkTheme : lightTheme}>
       <Router>
@@ -56,39 +65,22 @@ function App() {
           <Projects openModal={openModal} setOpenModal={setOpenModal} />
           <Wrapper>
             <Education />
-            {/* <div>
-              <Contact />
-              <Canvas
-                camera={{ position: [0, 50, 90], fov: 50 }}
-                style={{ height: "75vh", width: "70%" }}
-              >
-                <OrbitControls target={[10,10, 10]} />
-                <ambientLight intensity={1.5} />
-                <directionalLight position={[0, 10, 5]} intensity={2} />
-                <Suspense fallback={null}>
-                  <Setup />
-                </Suspense>
-              </Canvas>
-            </div> */}
 
             <div
               style={{ display: "flex", alignItems: "center", height: "100vh" }}
             >
-              
-              
-                <Canvas
-                  camera={{ position: [0, 50, 90], fov: 50 }}
-                  style={{ height: "75vh", width: "60%" }}
-                >
-                  <OrbitControls target={[0, 0, 0]} />{" "}
-                 
-                  <ambientLight intensity={1.5} />
-                  <directionalLight position={[0, 10, 5]} intensity={2} />
-                  <Suspense fallback={null}>
-                    <Setup />
-                  </Suspense>
-                </Canvas>
-             
+              <Canvas
+                camera={{ position: [0, 50, 90], fov: 50 }}
+                style={{ height: "75vh", width: "60%" }}
+              >
+                <OrbitControls target={[0, 0, 0]} />{" "}
+                <ambientLight intensity={1.5} />
+                <directionalLight position={[0, 10, 5]} intensity={2} />
+                <Suspense fallback={null}>
+                  {!isSmallScreen && <Setup />}
+                </Suspense>
+              </Canvas>
+
               <div
                 style={{
                   flex: 1,
@@ -101,7 +93,9 @@ function App() {
                 <Contact />
               </div>
             </div>
+            {isSmallScreen && <MobileSetup />}
           </Wrapper>
+
           <Footer />
           {openModal.state && (
             <ProjectDetails openModal={openModal} setOpenModal={setOpenModal} />
