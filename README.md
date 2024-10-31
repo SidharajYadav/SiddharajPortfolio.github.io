@@ -27,6 +27,7 @@ My Portfolio is a React.js application that serves as an online portfolio to sho
 - Style-Components: A CSS framework for creating responsive and mobile-first designs.
 - Git: A version control system for tracking changes and collaborating on projects.
 - GitHub Pages: A platform for hosting and deploying web applications.
+- Three.js - 3d models 
 
 ## Installation
 To run this portfolio locally, follow these steps:
