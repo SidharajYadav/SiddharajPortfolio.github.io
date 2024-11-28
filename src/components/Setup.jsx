@@ -52,4 +52,4 @@ export default function Model(props) {
   )
 }
 
-useGLTF.preload("/SiddharajPortfolio.github.io/setup.gltf");
+useGLTF.preload("/SiddharajPortfolio.github.io/setup.gltf"); 
