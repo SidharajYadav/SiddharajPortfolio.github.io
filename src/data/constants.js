@@ -1,4 +1,4 @@
-import drdyImage from '../images/DrDY.png';
+import drdyImage from '../images/DrDY.png'; 
 import HeroImage from '../images/HeroImage.jpg';
 import atechnoImage from '../images/Atechno.png'; // Correct path for Atechno.png
 import exposysImage from '../images/Exposys.png';
