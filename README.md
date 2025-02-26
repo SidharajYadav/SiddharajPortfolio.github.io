@@ -3,7 +3,7 @@ Welcome to my portfolio! This project showcases my skills, projects, and experie
  
 ### Weblink: [Live Website](https://sidharajyadav.github.io/SiddharajPortfolio.github.io/)
 ## Some Images:
-<img width="450px;" src="https://github.com/SidharajYadav/SiddharajPortfolio.github.io/blob/main/public/siddharajPort.jpg"/>
+<img width="450px;"  src="https://github.com/SidharajYadav/SiddharajPortfolio.github.io/blob/main/public/siddharajPort.jpg"/>
 <img width="450px;" src="https://github.com/SidharajYadav/SiddharajPortfolio.github.io/blob/main/public/SidSkills.jpg"/>
 <img width="450px;" src="https://github.com/SidharajYadav/SiddharajPortfolio.github.io/blob/main/public/sidExpe.jpg"/>
 <img width="450px;" src="https://github.com/SidharajYadav/SiddharajPortfolio.github.io/blob/main/public/sidEdu.jpg"/>
