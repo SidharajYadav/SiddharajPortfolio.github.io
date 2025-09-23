@@ -199,7 +199,7 @@ export const experiences = [
     role: "Full Stack Developer ",
     company: "DViO Digital Pvt Ltd - Pune,India",
     date: "Jun 2025 - Present",
-    desc: "Working on Flipr Platforms, managing DevOps, and streamlining the process with automation.",
+    desc: "Develop and deploy full-stack applications using the MERN stack with a focus on performance, security, and reliability.Delivered Shopify and WordPress solutions,including custom projects,",
     skills: [
       "Node Js",
       " Next Js",
