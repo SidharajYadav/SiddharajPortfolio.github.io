@@ -222,7 +222,7 @@ export const experiences = [
     img: atechnoImage,
     role: "Web Developer Intern",
     company: "Atechno Embedded Solutions",
-    date: "June 2023 - Dec 3023",
+    date: "June 2023 - Dec 2023",
     desc: "Working on the frontend of the web application using ReactJS, Redux, and Material UI.",
     skills: [
       "ReactJS",
