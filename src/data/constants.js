@@ -193,12 +193,36 @@ export const skills = [
 ];
 
 export const experiences = [
+   {
+    id: 0,
+    img: ,
+    role: "Full Stack Developer ",
+    company: "DViO Digital Pvt Ltd - Pune,India",
+    date: "Jun 2025 - Present",
+    desc: "Working on Flipr Platforms, managing DevOps, and streamlining the process with automation.",
+    skills: [
+      "Node Js",
+      " Next Js",
+      "ReactJS",
+      "Tailwind CSS",
+      "Docker",
+      "Shopify",
+      "Wordpress",
+      "AWS",
+      "Pythonr",  
+      "JavaScript",
+      "TypeScript",
+      
+    ],
+    // doc: "https://media.licdn.com/dms/image/D4D2DAQFlp60ZqHuaFQ/profile-treasury-image-shrink_1280_1280/0/1691180828512?e=1692381600&v=beta&t=mM5Y_NE5EPlQhez5FAN6NLVSKcO_Ojt_9Gq3mnFGkAQ",
+ 
+  },
   {
     id: 0,
     img: feedbank,
     role: "Software Engineer ",
     company: "feedbank.ai",
-    date: "Jan 2023 - Present",
+    date: "Jan 2023 - May 2025",
     desc: "Working on Flipr Platforms, managing DevOps, and streamlining the process with automation.",
     skills: [
       "ReactJS",
