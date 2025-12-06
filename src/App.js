@@ -93,7 +93,7 @@ function App() {
                 <Contact />
               </div>
             </div>
-            {isSmallScreen && <MobileSetup />}
+            {isSmallScreen && <MobileSetup />} 
           </Wrapper>
 
           <Footer />

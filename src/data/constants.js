@@ -209,6 +209,30 @@ export const skills = [
 ];
 
 export const experiences = [
+   {
+    id: 0,
+    img: ,
+    role: "Full Stack Developer ",
+    company: "DViO Digital Pvt Ltd - Pune,India",
+    date: "Jun 2025 - Present",
+    desc: "Develop and deploy full-stack applications using the MERN stack with a focus on performance, security, and reliability.Delivered Shopify and WordPress solutions,including custom projects,",
+    skills: [
+      "Node Js",
+      " Next Js",
+      "ReactJS",
+      "Tailwind CSS",
+      "Docker",
+      "Shopify",
+      "Wordpress",
+      "AWS",
+      "Pythonr",  
+      "JavaScript",
+      "TypeScript",
+      
+    ],
+    // doc: "https://media.licdn.com/dms/image/D4D2DAQFlp60ZqHuaFQ/profile-treasury-image-shrink_1280_1280/0/1691180828512?e=1692381600&v=beta&t=mM5Y_NE5EPlQhez5FAN6NLVSKcO_Ojt_9Gq3mnFGkAQ",
+ 
+  },
   {
     id: 0,
     img: dvioDigital,

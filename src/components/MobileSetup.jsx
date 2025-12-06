@@ -12,8 +12,9 @@ const MobileSetup = () => {
         style={{ height: "75vh", width: "100%" }} 
       >
         <OrbitControls target={[0, 0, 0]} />
-        <ambientLight intensity={1.5} /> 
-        <directionalLight position={[0, 10, 5]} intensity={2} />
+        <ambientLight intensity={1.5} />
+        <directionalLight position={[0, 10, 5]} intensity={2} /> 
+        
         <Suspense fallback={null}>
           <Setup /> 
         </Suspense>
