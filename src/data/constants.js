@@ -1,4 +1,4 @@
-import drdyImage from '../images/DrDY.png';
+import drdyImage from '../images/DrDY.png'; 
 import HeroImage from '../images/HeroImage.jpg';
 import atechnoImage from '../images/Atechno.png'; // Correct path for Atechno.png
 import exposysImage from '../images/Exposys.png';
@@ -9,6 +9,7 @@ import adobe from '../images/adobe xd.png';
 import figma from '../images/figma.png';
 import zeta from '../images/zeta-v.png';
 import WebGuard from '../images/Web-Guards Home page.jpg';
+import dvioDigital from '../images/dvioicon.png';
 export const Bio = {
   name: "Siddharaj Yadav",
   roles: [
@@ -164,6 +165,21 @@ export const skills = [
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg",
       },
       {
+        name: "AWS",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Amazon_Web_Services_Logo.svg/1024px-Amazon_Web_Services_Logo.svg.png",
+      },
+      {
+        name: "Shopify",
+        image:
+          "https://cdn.shopify.com/shopifycloud/brochure/assets/brand-assets/shopify-logo-primary-logo-456baa801ee66a0a435671082365958316831c9960c480451dd0330bcdae304f.svg",
+      },
+      {
+        name: "Jira",
+        image:
+          "https://cdn.worldvectorlogo.com/logos/jira-1.svg",
+      },
+      {
         name: "Netlify",
         image:
           "https://seeklogo.com/images/N/netlify-logo-BD8F8A77E2-seeklogo.com.png",
@@ -219,6 +235,25 @@ export const experiences = [
   },
   {
     id: 0,
+    img: dvioDigital,
+    role: "Full Stack Developer",
+    company: "DVio Digital, Pune",
+    date: "June 2025 - Present",
+    desc: "Developing MERN stack web applications, Next.js websites, and n8n automation workflows. Building Shopify E-commerce sites and managing AWS infrastructure. Leading project management initiatives, mentoring junior developers, and taking ownership of end-to-end project delivery. Collaborating closely with UI/UX and QA testing teams, while maintaining strong client partnerships to ensure successful project outcomes.",
+    skills: [
+      "MERN Stack",
+      "Next.js",
+      "n8n Workflows",
+      "Shopify",
+      "AWS",
+      "Project Management",
+      "Team Leadership",
+      "Client Relations",
+      "UI/UX Collaboration",
+    ],
+  },
+  {
+    id: 1,
     img: feedbank,
     role: "Software Engineer ",
     company: "feedbank.ai",
@@ -357,6 +392,88 @@ export const education = [
 ];
 
 export const projects = [
+  {
+    id: 11,
+    title: "AI Voice Agent - n8n & ElevenLabs",
+    date: "Nov 2025 - Dec 2025",
+    description:
+      "Developed an intelligent AI Voice Agent using n8n workflow automation and ElevenLabs voice synthesis technology. The system enables natural voice interactions for customer support and automated responses, featuring real-time speech processing, context-aware conversations, and seamless integration with business workflows.",
+    image:
+      "https://images.unsplash.com/photo-1589254065878-42c9da997008?w=800&auto=format&fit=crop&q=60",
+    tags: [
+      "n8n",
+      "ElevenLabs",
+      "AI Voice",
+      "Automation",
+      "Node.js",
+      "API Integration",
+      "Webhook",
+    ],
+    category: "web app",
+    github: "https://github.com/SidharajYadav",
+  },
+  {
+    id: 12,
+    title: "Artis - Shopify E-commerce",
+    date: "Oct 2025 - Nov 2025",
+    description:
+      "Built a complete Shopify E-commerce website for Artis - India's trusted brand since 1986 for Power Solutions, Audio, and IT/PC Accessories. Features include custom theme development, product catalog for UPS systems, Bluetooth speakers, soundbars, and PC accessories. Implemented D2C operations with payment gateway integration and optimized user experience.",
+    image:
+      "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&auto=format&fit=crop&q=60",
+    tags: [
+      "Shopify",
+      "Liquid",
+      "E-commerce",
+      "Theme Development",
+      "Payment Gateway",
+      "SEO",
+    ],
+    category: "web app",
+    github: "https://github.com/SidharajYadav",
+    webapp: "https://www.artis.in/",
+  },
+  {
+    id: 13,
+    title: "Super General - Shopify Store",
+    date: "Sep 2025 - Oct 2025",
+    description:
+      "Developed a comprehensive Shopify E-commerce platform for Super General - a leading home appliances and electronics brand. Features include custom storefront design, inventory management system, multi-currency support for UAE market, and analytics dashboard. Optimized for performance and conversion rate optimization.",
+    image:
+      "https://images.unsplash.com/photo-1472851294608-062f824d29cc?w=800&auto=format&fit=crop&q=60",
+    tags: [
+      "Shopify",
+      "E-commerce",
+      "Liquid",
+      "JavaScript",
+      "Analytics",
+      "Inventory Management",
+    ],
+    category: "web app",
+    github: "https://github.com/SidharajYadav",
+    webapp: "https://www.supergeneral.com/ae",
+  },
+  {
+    id: 14,
+    title: "Burjeel - Next.js Healthcare Platform",
+    date: "Aug 2025 - Sep 2025",
+    description:
+      "Created a modern Next.js website for Burjeel Healthcare - a leading healthcare network in UAE. Features include server-side rendering, headless CMS integration for dynamic content management, appointment booking system, doctor profiles, and responsive design. Built with scalability and optimized for healthcare accessibility.",
+    image:
+      "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&auto=format&fit=crop&q=60",
+    tags: [
+      "Next.js",
+      "CMS",
+      "React",
+      "Database",
+      "SSR",
+      "TypeScript",
+      "Tailwind CSS",
+      "Healthcare",
+    ],
+    category: "web app",
+    github: "https://github.com/SidharajYadav",
+    webapp: "https://burjeel.com/",
+  },
   {
     id: 9,
     title: "WellCareHub",

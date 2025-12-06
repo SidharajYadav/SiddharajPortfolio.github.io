@@ -6,7 +6,7 @@ License: CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
 Source: https://sketchfab.com/3d-models/computer-and-laptop-8757cd8dd5c941248cc1048fd6368290
 Title: Computer and laptop
 */
-
+ 
 import React from "react";
 import { useGLTF } from '@react-three/drei'
 
